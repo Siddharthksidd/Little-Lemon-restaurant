@@ -1,0 +1,360 @@
+body {
+    background-color: rgb(101, 191, 246);
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: greenyellow;
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-item {
+    text-align: center;
+    color: white;
+
+}
+
+nav:hover{
+    background-color: aqua;
+    border: 3px solid blue;
+}
+
+.nav-item:active {
+    background-color: yellow;
+    color: green;
+    border: 3px blue solid;
+    border-radius: 15px;
+    padding: 0px 20px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a:hover {
+    color: darkblue;
+}
+
+/* -------------Home----------------- */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    background-image: url(IMG/mediterranean-cuisine-2378758_1280.jpg);
+    background-size: cover;
+    padding: 125px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: white;
+    font-size: 53px;
+    text-shadow: 10px 5px 5px black;
+}
+
+main section {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+
+main section article div{
+    align-items:center;
+    justify-content: space-around;
+}
+
+.ll img{
+    width: 25%;
+    margin: 10px    ;
+}
+
+.ll p{
+    padding: 0px 15px;
+    max-width:75%;
+    text-align: justify;
+    }
+
+.ll{
+    border-right: 2px solid black;
+}
+
+.founders{
+    border-right: 2px solid black;
+}
+
+.lit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section article h2{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
+.founders{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+
+.founders div{
+    padding: 15px;
+}
+
+.founders img{
+    width: 99%;
+}
+
+.founders p{
+    width: auto;
+    background-image: url(IMG/brick-wall-1834784_1280.jpg);
+    background-size: cover;
+    padding: 50px 15px;
+    color: white;
+}
+
+.specials{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.specials div{
+    margin: 10px;
+}
+.specials img{
+    width: 49%;
+    
+}
+
+/* -----------------Menu---------------- */
+
+.menu>p {
+    font-size: 20px;
+    margin-left: 2vw;
+    margin-bottom: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: #1a17171d;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.415);
+}
+
+tr:nth-child(1) {
+    background-color: rgba(96, 225, 22, 0.327);
+}
+
+tr:hover {
+    background-color: rgb(52, 222, 26);
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+th {
+    font-size: 20px;
+    padding: 20px 50px;
+}
+
+td {
+    padding: 10px 30px;
+}
+
+tr:nth-child(1) {
+    text-align: left;
+}
+
+table>tr:nth-child() {
+    text-align: center;
+}
+
+.menu-t {
+    margin: 0 auto;
+}
+
+
+/* ---------------New Arrivals--------------- */
+
+.food-item {
+    display: inline-flex;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    padding: 12px;
+    margin: 5px 5px;
+    border: 5px black solid;
+    border-radius: 30px;
+    background-color: var(--background4);
+}
+
+.food-item:hover {
+    transform: scaleX(120%) scaleY(120%);
+    transition: 150ms;
+    box-shadow: 5px 5px rgba(17, 17, 17, 0.379);
+}
+
+.food-item>p {
+    font-weight: bold;
+}
+
+.food-item>h6 {
+    font-size: 25px;
+    padding: 0px 0px;
+    text-decoration: underline solid black;
+}
+
+.food-item>img {
+    align-self: center;
+    padding: 0px 0px;
+    width: 300px;
+    height: 200px;
+    border: black solid 5px;
+}
+
+
+/* -------------------About Us-------------  */
+
+.about {
+    background-color: rgba(28, 178, 191, 0.719);
+    padding-bottom: 40px;
+}
+
+.about>h2 {
+    padding-top: 40px;
+}
+
+.about>p {
+    margin: 0px 2vw;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.about>h5 {
+    font-size: 30px;
+    margin-left: 2vw;
+}
+
+.reviews {
+    margin: 0px 0.5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: auto
+}
+
+.review-content {
+    position: relative;
+    padding: 12px;
+    margin: 5px 5px;
+    border: 5px black solid;
+    border-radius: 30px;
+    background-color: var(--background4);
+    padding-bottom: 10px;
+    margin: 10px 0px 0px 10px;
+    width: 45vw;
+    background-color: #ffffffc8;
+    max-width: 550px;
+}
+
+.rev-title {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.review-content>.rev-title>img {
+    border: black solid 4px;
+    border-radius: 100px;
+    height: 80px;
+    display: inline-block;
+}
+
+.review-content>.rev-title>.name {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 0px 0px 40px 0px;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.review-content>.rev {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.review-content:hover {
+    transform: scaleX(107%) scaleY(107%);
+    transition: 150ms;
+    box-shadow: 5px 5px rgba(17, 17, 17, 0.379);
+}
+
+.review-content>.rev-title>img:hover {
+    transform: scaleX(150%) scaleY(150%);
+    transition: 150ms;
+    box-shadow: 5px 5px rgba(17, 17, 17, 0.379);
+}
+
+
+/* -------------footer----------------- */
+
+footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center
+}
+
+footer div {
+    width: 50%;;
+}
+
+footer div img {
+    width: 100%;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+
+footer div p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
