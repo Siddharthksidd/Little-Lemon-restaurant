@@ -28,8 +28,8 @@ The main purpose of the webpage is to showcase the skills which was uptained in 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Siddharthksidd/Frontend_mentor_Projects-intro-component-with-signup-form-master)
-- Live Site URL: [Add live site URL here](https://siddharthksidd.github.io/Frontend_mentor_Projects-intro-component-with-signup-form-master/)
+- Solution URL: [Click here](https://github.com/Siddharthksidd/Little-Lemon-restaurant)
+- Live Site URL: [Click here](https://siddharthksidd.github.io/Little-Lemon-restaurant/)
 
 ## My process
 
